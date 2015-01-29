@@ -15,7 +15,7 @@
       + git: http://www.github.com/richardjoo
   * A brief description of the project
     - simple budgeting app.
-    - I am using excel to do my budgeting simply because there is no suitable tools out there that fits to my needs, at least for free.  I use mint.com but their budgeting section is somewhat limited and less flexible.  If mint.com provides a good budgeting, then I would use mint.com site and be happy with it.  But since it is not, I decided to build this one and see how it goes.
+    - I am using excel to do my budgeting simply because there are no suitable tools out there that fits to my needs, at least for free.  I use mint.com but their budgeting section is somewhat limited and less flexible for me.  If mint.com provides a good budgeting, then I would use mint.com site and be happy with it.  But since it is not, I decided to build this one and see how it goes.
   * An outline of the technologies in the project
     - Framework
       + Rails
@@ -32,33 +32,33 @@
 
 # Required Environment / Minimum Setup
 ----------------------------------------------
-  Ruby version.
-    ruby 2.1.1p76 (2014-02-24 revision 45161) [i686-linux]
-
-  Rails version
-    Rails 4.1.5
-
-  Minimum setup required to run the app. This should be checked by `rake dev:setup`.
+  * Ruby version.
+    * ruby 2.1.1p76 (2014-02-24 revision 45161) [i686-linux]
+  * Rails version
+    * Rails 4.1.5
+  * Minimum setup required to run the app. This should be checked by `rake dev:setup`.
+    * PostgreSQL
 
 
 # Accessing the Site
 ----------------------------------------------
-
-Is it running WEBrick, pow, unicorn?
-Do you need to use custom subdomains or hosts?
+  * For development, simply run
+    - `rails s Puma`
+    - or you can use `rails s` if you do not prefer not to use `Puma`
 
 
 # Configuration
 ----------------------------------------------
-
-Who do I speak with to get the values for configuration files?
-Who/where do I go to for dev/production database dumps?
+  * Who do I speak with to get the values for configuration files?
+    - Richard Joo
+  * Who/where do I go to for dev/production database dumps?
+    - Richard Joo
 
 
 # Walkthrough / Smoke Test
 ----------------------------------------------
-
-Describe a manual smoke test process to ensure that the env is running as it should be.
+  * Describe a manual smoke test process to ensure that the env is running as it should be.
+    - `rspec spec/`
 
 
 # Getting Started
