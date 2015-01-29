@@ -62,11 +62,9 @@
 
 
 # Getting Started
-  * A detailed spin-up process. This should include:
-    - Instructions on installing any software the application is dependent on:
-      + wkhtmltopdf,
-      + PostgreSQL,
-      + XQuartz.
+  * A detailed spin-up process
+    - What you need:
+      + PostgreSQL
     - Instructions on running the app. For rails apps you’ll want to include the
       + rake db:create db:migrate db:seed process here,
       + as well as instructions on starting a server (e.g. are we using pow, or just the default `rails s`)
